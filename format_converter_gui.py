@@ -58,7 +58,7 @@ class FormatConverterGUI:
     def __init__(self, root):
         """Initialize the GUI."""
         self.root = root
-        self.root.title("Image Enzyme - Universal Format Converter")
+        self.root.title("Integrator - Universal Format Converter")
         self.root.geometry("900x900")
         self.root.minsize(800, 800)
         self.root.resizable(True, True)
@@ -92,7 +92,7 @@ class FormatConverterGUI:
         # Title
         title_label = ttk.Label(
             main_frame,
-            text="Image Enzyme",
+            text="Integrator",
             font=("Arial", 20, "bold")
         )
         title_label.grid(row=0, column=0, pady=(0, 5))

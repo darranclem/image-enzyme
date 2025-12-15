@@ -1,4 +1,4 @@
-# Image Enzyme
+# Integrator
 
 **Universal Microscopy Format Converter**
 
@@ -101,7 +101,7 @@ Select your desired resolution from the "VSI Resolution" dropdown.
 
 ### Handling Large Files
 
-Image Enzyme uses dask-based chunked loading to handle images larger than Bio-Formats' 2GB limit:
+Integrator uses dask-based chunked loading to handle images larger than Bio-Formats' 2GB limit:
 
 - Automatically rechunks to 1024×1024 tiles
 - Processes tiles incrementally to minimize memory usage
@@ -185,4 +185,4 @@ For issues, questions, or feature requests, please open an issue on GitHub.
 
 ---
 
-**Image Enzyme** - Enzymatically digesting microscopy format barriers since 2025 🧬🔬
+**Integrator** - Seamlessly integrating microscopy formats since 2025 🔬✨

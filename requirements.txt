@@ -1,4 +1,4 @@
-# Image Enzyme - Universal Microscopy Format Converter
+# Integrator - Universal Microscopy Format Converter
 # Core Dependencies
 
 # Microscopy image I/O with Bio-Formats backend
