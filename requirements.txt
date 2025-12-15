@@ -1,0 +1,30 @@
+# Image Enzyme - Universal Microscopy Format Converter
+# Core Dependencies
+
+# Microscopy image I/O with Bio-Formats backend
+aicsimageio[bioformats]>=4.14.0
+bioformats_jar>=2024.7.22
+
+# Image format support
+tifffile>=2024.8.10
+zarr>=2.18.2
+h5py>=3.11.0
+
+# Array operations and chunked processing
+numpy>=1.24.0
+dask[array]>=2024.8.0
+
+# GUI support
+tkinterdnd2>=0.4.2
+
+# Optional: for better performance
+blosc2>=2.0.0
+
+# Optional: for Zarr optimization
+numcodecs>=0.12.0
+
+# Optional: for metadata validation
+ome-types>=0.5.0
+
+# Build tools (for creating standalone executable)
+pyinstaller>=6.9.0
